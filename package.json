@@ -1,0 +1,15 @@
+{
+  "name": "tuition-track",
+  "version": "1.0.0",
+  "description": "TuitionTrack — Personal Tuition Management System",
+  "scripts": {
+    "server": "cd tuition-track-server && npm run dev",
+    "client": "cd tuition-track-client && npm run dev",
+    "build:client": "cd tuition-track-client && npm run build",
+    "start:client": "cd tuition-track-client && npm run start",
+    "start:server": "cd tuition-track-server && npm start"
+  },
+  "keywords": ["tuition", "tutoring", "management", "tracker", "nextjs", "express", "mongodb"],
+  "author": "",
+  "license": "ISC"
+}
